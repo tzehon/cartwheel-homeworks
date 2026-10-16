@@ -1,0 +1,23 @@
+hw1-session.jsonl
+  s_a7e58a43152446::t_78eb6b6f1f6e49 11-12
+hw1-part-c.md
+  s_a7e58a43152446::t_53ba33de2c23ff 1-72
+agent/agent.py
+  s_a7e58a43152446::t_9c77550f5c1671 62,75-77
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "359493b10cb54aea7693b22a1246585b4a21afda",
+  "prompts": {},
+  "sessions": {
+    "s_a7e58a43152446": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a14222-eef2-77c1-9c12-f4f56bd55c0c",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    }
+  }
+}
