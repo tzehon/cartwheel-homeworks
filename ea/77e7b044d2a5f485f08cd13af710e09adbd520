@@ -1,0 +1,24 @@
+hw1-session.jsonl
+  s_8d31873d210c2d::t_d0be2970a9b923 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ea77e7b044d2a5f485f08cd13af710e09adbd520",
+  "prompts": {},
+  "humans": {
+    "h_0dc6fc7465bd9a": {
+      "author": "tth <xyz@foo.com>"
+    }
+  },
+  "sessions": {
+    "s_8d31873d210c2d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a14222-eef2-77c1-9c12-f4f56bd55c0c",
+        "model": "unknown"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    }
+  }
+}
