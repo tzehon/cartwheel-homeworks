@@ -1,0 +1,21 @@
+tests/test_hw1_tools.py
+  s_04d6dabf7e9e56::t_f8a22546562e5c 1-102
+agent/tools.py
+  s_04d6dabf7e9e56::t_0d590e0295fd82 55-64,106-142,167-181,226-239,273-298
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2b27cb873987c227cbd10b2d27fad55b72fe4388",
+  "prompts": {},
+  "sessions": {
+    "s_04d6dabf7e9e56": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a13cdb-6ff7-7c51-89ff-3771dc40fc16",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    }
+  }
+}
