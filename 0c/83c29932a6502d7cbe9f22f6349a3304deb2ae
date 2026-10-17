@@ -1,0 +1,23 @@
+tests/test_observability.py
+  s_c839f35053ef13::t_c2757839d0dde4 1-48
+server/app.py
+  s_c839f35053ef13::t_eb03f4d9b3a3e4 187-190
+  s_c839f35053ef13::t_64ec22e97b4b86 191-234
+  s_c839f35053ef13::t_7d17726bd5d165 126-153
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0c83c29932a6502d7cbe9f22f6349a3304deb2ae",
+  "prompts": {},
+  "sessions": {
+    "s_c839f35053ef13": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a147ec-606e-7a92-8f6e-5c2f4a887173",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    }
+  }
+}
