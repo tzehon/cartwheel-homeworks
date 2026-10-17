@@ -1,0 +1,19 @@
+hw2-traces.json
+  s_ea064e8822bab5::t_078c2f2c6c7aec 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0c138e7ef203bfab985a4f99df6439b2c31d3aeb",
+  "prompts": {},
+  "sessions": {
+    "s_ea064e8822bab5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a147ec-606e-7a92-8f6e-5c2f4a887173",
+        "model": "unknown"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    }
+  }
+}
