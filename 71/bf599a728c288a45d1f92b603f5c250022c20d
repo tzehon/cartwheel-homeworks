@@ -1,0 +1,20 @@
+observability/instrument.py
+  s_c839f35053ef13::t_a4927fe838b625 125-129
+  s_c839f35053ef13::t_4fb547be212510 153-159
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "71bf599a728c288a45d1f92b603f5c250022c20d",
+  "prompts": {},
+  "sessions": {
+    "s_c839f35053ef13": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a147ec-606e-7a92-8f6e-5c2f4a887173",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    }
+  }
+}
