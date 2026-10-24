@@ -1,0 +1,189 @@
+scenarios/final_candidates.jsonl
+  s_6c98c4cf05f6a4::t_5c48189bb6fd9d 215-250
+  s_6c98c4cf05f6a4::t_18095d42ec8250 98-201
+  s_6c98c4cf05f6a4::t_19422c13bf8c27 1-97,202-214
+scenarios/hw3-progress.md
+  s_ea43caeaca47ff::t_7a6be0cabe0a3e 37-47,49
+  s_ea43caeaca47ff::t_5f8f34d560add2 27-36,80
+  s_ea43caeaca47ff::t_644ff8e2c7884d 82-85
+  s_6c98c4cf05f6a4::t_19b836bb5232b3 86,88-89,95,125
+  s_ea43caeaca47ff::t_be08c92a1af63d 3,9,11-23,25,76,118,133,135,139-140
+  s_ea43caeaca47ff::t_5435e8eaf0deb8 105
+  s_6c98c4cf05f6a4::t_7ba2c409f61c05 96,102,104,110,112-113,115,126,130,132
+  s_ea43caeaca47ff::t_bb4be149bba6d5 1-2,4-6,8,10,24,26,77,134,136-138
+  s_ea43caeaca47ff::t_21df2db3d8a489 64,66-75
+  s_ea43caeaca47ff::t_df4da6a2110d59 119
+  s_6c98c4cf05f6a4::t_a971ada4ccff06 57-63,65,124
+  s_ea43caeaca47ff::t_1e4bd0cecf56c2 81,87
+  s_ea43caeaca47ff::t_812264cb132204 120,142-147
+  s_ea43caeaca47ff::t_058f196d52d272 99,121,148-150
+  s_ea43caeaca47ff::t_6bf7d9a696afa8 100,103,127
+  s_ea43caeaca47ff::t_7023063503c070 79
+  s_ea43caeaca47ff::t_04e6d07fde4cf8 107
+  s_ea43caeaca47ff::t_0ab8e79bfe8998 7,114,131,141,152-155
+  s_ea43caeaca47ff::t_7d95acc162d7f9 48,50-56
+  s_6c98c4cf05f6a4::t_d995c14bba7482 78,122,151
+  s_ea43caeaca47ff::t_fd4dd8ae496ac0 92-93
+  s_ea43caeaca47ff::t_d1acc86775f274 94,98,101,116-117,123
+  s_6c98c4cf05f6a4::t_ef59bbdbc0221f 106,108,111,129
+  s_ea43caeaca47ff::t_52dfd2edeb47c5 97
+  s_6c98c4cf05f6a4::t_71d3edb31de6eb 109,128
+  s_ea43caeaca47ff::t_1ea6c9fcf70b7b 90-91
+scenarios/pilot_plan.json
+  s_6c98c4cf05f6a4::t_3100d2263b0899 1-4455
+scenarios/final-language-audit.jsonl
+  s_6c98c4cf05f6a4::t_50b2e564eeae1f 1-235
+scenarios/final-conversation-review.md
+  s_6c98c4cf05f6a4::t_a790ece9f1b2aa 1-402
+scenarios/generate_final.py
+  s_ea43caeaca47ff::t_43d551c395e304 1-90
+reports/smoke-output.txt
+  s_ea43caeaca47ff::t_2317de180d2d62 1-89
+scenarios/final-generation-log.jsonl
+  s_6c98c4cf05f6a4::t_a6510685509bc5 45-500
+  s_ea43caeaca47ff::t_088f3292ba793b 1-44
+scenarios/final-language-audit.md
+  s_ea43caeaca47ff::t_cf59146145c092 1-29
+scenarios/monitoring_scenarios.jsonl
+  s_ea43caeaca47ff::t_ea8abb9064156c 1-50
+scenarios/pilot_draft.jsonl
+  s_ea43caeaca47ff::t_593c969bf36d09 1-30
+scenarios/pilot-language-review.jsonl
+  s_ea43caeaca47ff::t_812264cb132204 1-30
+scenarios/final-plan-coverage.md
+  s_ea43caeaca47ff::t_0228ca6d674469 1-111
+scenarios/critique_final.py
+  s_ea43caeaca47ff::t_6767b0b5f00355 1-154
+scenarios/final-critic-log.jsonl
+  s_6c98c4cf05f6a4::t_18095d42ec8250 557-562
+  s_ea43caeaca47ff::t_596a7501b3b157 478
+  s_6c98c4cf05f6a4::t_5c48189bb6fd9d 479-556
+  s_6c98c4cf05f6a4::t_1e268457586b93 1-477
+scenarios/final-deliverable-review.json
+  s_ea43caeaca47ff::t_0ab8e79bfe8998 105,155-170
+  s_6c98c4cf05f6a4::t_7ba2c409f61c05 1-104,106-154,171
+scenarios/pilot-critic-log.jsonl
+  s_ea43caeaca47ff::t_fcaeea39ca1ee5 16-118
+  s_6c98c4cf05f6a4::t_53cdffba1d45d2 165-174
+  s_6c98c4cf05f6a4::t_de20197f35579a 1-15,119-164
+traces/pilot_traces.json
+  s_ea43caeaca47ff::t_c020472ffcab23 1-56034
+tests/test_final_critic.py
+  s_ea43caeaca47ff::t_6767b0b5f00355 1-72
+scenarios/critique_pilot.py
+  s_ea43caeaca47ff::t_e6cf7a6524a70a 1-82,85-115,144-223,236,252-253,258-260,262-273,276-283,285-290,292,294,300-303,305-318,328,330,337-338,341-342,345-380,383-391
+  s_ea43caeaca47ff::t_5253475c89cf1d 83-84,116-143,224-235,237-251,261,274-275,284,291,295-299,304,319-327,329,331-336,339-340,344,381-382
+  s_ea43caeaca47ff::t_6767b0b5f00355 254-257,293,343
+scenarios/final_draft.jsonl
+  s_6c98c4cf05f6a4::t_a6510685509bc5 22-250
+  s_ea43caeaca47ff::t_381c3e5bc260d7 1-21
+scenarios/support_scenarios.jsonl
+  s_6c98c4cf05f6a4::t_a790ece9f1b2aa 1,28,44,74,91,111,116,118,123-124,126,129,131-132,134,136,142,145-146,150,158,164-167,173,177,184,200,204,216,219,221-222,224,229-231,244
+  s_6c98c4cf05f6a4::t_50b2e564eeae1f 2-27,29-43,45-73,75-90,92-110,112-115,117,119-122,125,127-128,130,133,135,137-141,143-144,147-149,151-157,159-163,168-172,174-176,178-183,185-199,201-203,205-215,217-218,220,223,225-228,232-243,245-250
+scenarios/pilot_critic.jsonl
+  s_ea43caeaca47ff::t_fcaeea39ca1ee5 5-7
+  s_6c98c4cf05f6a4::t_53cdffba1d45d2 20-30
+  s_6c98c4cf05f6a4::t_27dacf26b1f189 1-4,8-19
+scenarios/pilot_scenarios.jsonl
+  s_ea43caeaca47ff::t_7a2419a2ceda49 16
+  s_6c98c4cf05f6a4::t_8c1ccb68c16248 3-4,6-14,19-20,22-27
+  s_ea43caeaca47ff::t_13f6f5b19cd74f 21
+  s_6c98c4cf05f6a4::t_c2e6077e3a3416 29
+  s_6c98c4cf05f6a4::t_53cdffba1d45d2 28
+  s_ea43caeaca47ff::t_9ced44ff8b1996 30
+  s_ea43caeaca47ff::t_ea708e14741f32 5
+  s_6c98c4cf05f6a4::t_9e275b6a2e5552 1-2,15,17-18
+scenarios/pilot_review.jsonl
+  s_ea43caeaca47ff::t_121367d9f798e5 1
+  s_ea43caeaca47ff::t_73781ff53362f0 3
+  s_ea43caeaca47ff::t_de2049db345070 7
+  s_ea43caeaca47ff::t_0e475e0efc3820 2
+  s_ea43caeaca47ff::t_c97f0471a298a7 5
+  s_ea43caeaca47ff::t_11ee9a28a7c609 6
+  s_6c98c4cf05f6a4::t_d995c14bba7482 10
+  s_6c98c4cf05f6a4::t_f8824da4ce6619 8
+  s_ea43caeaca47ff::t_b460a4146c5d97 4
+  s_6c98c4cf05f6a4::t_5f92e2f89162a1 9
+scenarios/pilot-run-manifest.json
+  s_6c98c4cf05f6a4::t_7c4d2137e1c707 1-6,8-26,462
+  s_ea43caeaca47ff::t_812264cb132204 7,281-282
+  s_ea43caeaca47ff::t_18ed5c38a9c69c 283-405
+  s_ea43caeaca47ff::t_058f196d52d272 433-434,436-437
+  s_ea43caeaca47ff::t_3e993995646064 406-432,435
+  s_ea43caeaca47ff::t_a57ad77b538355 27-280
+  s_6c98c4cf05f6a4::t_d995c14bba7482 438,440-460
+  s_ea43caeaca47ff::t_121367d9f798e5 439,461
+tests/test_pilot_generation.py
+  s_ea43caeaca47ff::t_80987501a895b9 1-118
+scenarios/pilot-conversation-review.md
+  s_ea43caeaca47ff::t_812264cb132204 3,98
+  s_6c98c4cf05f6a4::t_8c1ccb68c16248 1-2,4-97
+scenarios/final-language-audit-summary.json
+  s_ea43caeaca47ff::t_cf59146145c092 31-44
+  s_6c98c4cf05f6a4::t_50b2e564eeae1f 1-30,45
+scenarios/pilot-generation-log.jsonl
+  s_ea43caeaca47ff::t_593c969bf36d09 1-60
+scenarios/generate_pilot.py
+  s_ea43caeaca47ff::t_9cf294977f9a42 1-267
+scenarios/final_plan.json
+  s_ea43caeaca47ff::t_0228ca6d674469 1-34530
+scenarios/plan_final.py
+  s_ea43caeaca47ff::t_4913c1e7a18b89 1-586
+scenarios/pilot-results.jsonl
+  s_6c98c4cf05f6a4::t_1ca0787bcd0280 22-24
+  s_6c98c4cf05f6a4::t_97122fc7352561 25-30
+  s_ea43caeaca47ff::t_82ab8ad1833db7 1-21
+tests/test_final_generation.py
+  s_ea43caeaca47ff::t_43d551c395e304 1-37
+scenarios/final_critic.jsonl
+  s_6c98c4cf05f6a4::t_18095d42ec8250 98-201
+  s_6c98c4cf05f6a4::t_5c48189bb6fd9d 215-250
+  s_6c98c4cf05f6a4::t_6dc11f01f5113b 1-97,202-214
+scenarios/pilot-results-review.md
+  s_6c98c4cf05f6a4::t_f8824da4ce6619 355
+  s_ea43caeaca47ff::t_c97f0471a298a7 223
+  s_6c98c4cf05f6a4::t_d995c14bba7482 7,470
+  s_ea43caeaca47ff::t_de2049db345070 307
+  s_ea43caeaca47ff::t_0e475e0efc3820 93
+  s_ea43caeaca47ff::t_3e993995646064 1-6,8-46,48-92,94-152,154-200,202-222,224-256,258-306,308-354,356-445,447-469,471-1059
+  s_ea43caeaca47ff::t_121367d9f798e5 47
+  s_ea43caeaca47ff::t_73781ff53362f0 153
+  s_ea43caeaca47ff::t_b460a4146c5d97 201
+  s_ea43caeaca47ff::t_11ee9a28a7c609 257
+  s_6c98c4cf05f6a4::t_5f92e2f89162a1 446
+scenarios/support_review.jsonl
+  s_6c98c4cf05f6a4::t_a790ece9f1b2aa 1-15
+tests/test_pilot_critic.py
+  s_ea43caeaca47ff::t_1876638c78e1a0 1-9,12-39,43-133
+  s_ea43caeaca47ff::t_a2c3267ca555b4 10-11,40-42,134-225
+scenarios/final-results.jsonl
+  s_ea43caeaca47ff::t_b8fa5a36972a47 44
+  s_6c98c4cf05f6a4::t_e3ba6644a8ce79 182
+  s_ea43caeaca47ff::t_c9ec2f3da00cf2 1-43,45-181,183-250
+traces/support_traces.json
+  s_6c98c4cf05f6a4::t_dc8b4c597b2177 1-546733
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a777446fcb4002e748897843d0651a52e69eae91",
+  "prompts": {},
+  "sessions": {
+    "s_6c98c4cf05f6a4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a16cc0-d2a7-7ec2-8b18-de4dff043b4d",
+        "model": "unknown"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    },
+    "s_ea43caeaca47ff": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16cc0-d2a7-7ec2-8b18-de4dff043b4d",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    }
+  }
+}
