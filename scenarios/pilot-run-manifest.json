@@ -1,0 +1,462 @@
+{
+  "database_backup": "data/cartwheel-before-hw3-pilot-20261024-081530Z.db",
+  "policy_backup": "data/policies-before-hw3-pilot-20261024-081530Z",
+  "scenario_sha256": "d2a777d56c276eead6971f6f0b125433164ab948221874381e8ef6f2f21b6d0c",
+  "model": "gpt-4o-mini",
+  "student_conversation_sample_accepted": true,
+  "run_started": true,
+  "policy_hashes": {
+    "cw-returns.md": "c70052f1284cb26cd9c46748f72734c8223367961525c9fa41539ee518f0a5db",
+    "cw-disputes.md": "b9767321cbf880a8930aca120f7aa4cc3e48f1baa37ca3f16b77e49fcdd59ad4",
+    "cw-roles.md": "68dbb69a931f7e5609fe39c36894f9ff17683c24dad7dd64753e37794ce89015",
+    "store-juniper-home-goods-policy.md": "19917c24537da800cf3e6739f0687fcbc82588e08e30f951c476614dff8785a7",
+    "cw-payouts.md": "4dd2cf55f880ef34c9de8848300902ed15bd945029937339740ea14b930e577f",
+    "store-saltbox-pantry-policy.md": "a4e0e1fe397f404ce844688e46d80f9273574b5ad4e20d386164c0e034580480",
+    "store-northwind-books-policy.md": "ba4fabe0263f8c68007f819518ec521e2332741eb9245eb8f8e7176bedec5089",
+    "cw-refunds.md": "52203add3b3f28b7af18ef37e016923bc1210412dbeffd9b733b7594dde75f38",
+    "cw-escalations.md": "519e5462c40bf738e015fadd5ab9d956070705c9952b601a47f2dcf3a8f76292",
+    "cw-cancellations.md": "cb372e8a66d53c5448d0d1729d287fc6642bb37b1157aa46d4a1238e3f799e68",
+    "cw-getting-help.md": "9c63b164f02fe93c635b66d99003a1544ad441276e807642fe0dcb80956ebd2f",
+    "store-meridian-cycles-policy.md": "92cb3939f6737c1eba6f7f7bd12340713eb7e4f9519b02fff95738385aca733d",
+    "cw-account-security.md": "e4c23a8f7a7081c8dd49e67d73dfb8385fa4db7b9a8d7edd6b11224b30a125fd",
+    "cw-shipping.md": "406997c5244f719d7faee46c7810068bace9848f447cf781e0173baad294c6c2",
+    "store-cascade-audio-policy.md": "0961570faeb1cbf1556b48dc43780e605e54e079f613980f340f0fa51706c763",
+    "cw-store-overrides.md": "d13965d7e034b2f5f4ed5580cb82541970cb58dc704dc0a68ce7db508d677b70",
+    "store-second-stitch-apparel-policy.md": "19af2ecf4be20c8b6701eb3b7e39e95682159cf4d24cbe04c18c21342f7923ea",
+    "cw-restocking-fees.md": "e4e664ff6f3ed31b33a6add9dbdf84d1d6678ac147238dd44a3501b49f732028"
+  },
+  "baseline": {
+    "refunds": {
+      "count": 573,
+      "max_id": 574
+    },
+    "escalations": {
+      "count": 150,
+      "max_id": 150
+    }
+  },
+  "baseline_orders": {
+    "4537": {
+      "id": 4537,
+      "user_id": 204,
+      "store_id": 16,
+      "product_id": 614,
+      "quantity": 1,
+      "total_cents": 7300,
+      "status": "delivered",
+      "ordered_at": "2026-06-26",
+      "shipped_at": "2026-06-27",
+      "delivered_at": "2026-06-29",
+      "refund_eligible": 1
+    },
+    "8588": {
+      "id": 8588,
+      "user_id": 106,
+      "store_id": 17,
+      "product_id": 678,
+      "quantity": 1,
+      "total_cents": 17700,
+      "status": "shipped",
+      "ordered_at": "2026-06-30",
+      "shipped_at": "2026-07-01",
+      "delivered_at": null,
+      "refund_eligible": 0
+    },
+    "2048": {
+      "id": 2048,
+      "user_id": 489,
+      "store_id": 20,
+      "product_id": 773,
+      "quantity": 1,
+      "total_cents": 5525,
+      "status": "cancelled",
+      "ordered_at": "2026-07-01",
+      "shipped_at": null,
+      "delivered_at": null,
+      "refund_eligible": 0
+    },
+    "7382": {
+      "id": 7382,
+      "user_id": 412,
+      "store_id": 8,
+      "product_id": 313,
+      "quantity": 2,
+      "total_cents": 2300,
+      "status": "delivered",
+      "ordered_at": "2026-06-26",
+      "shipped_at": "2026-06-27",
+      "delivered_at": "2026-06-30",
+      "refund_eligible": 1
+    },
+    "6846": {
+      "id": 6846,
+      "user_id": 148,
+      "store_id": 17,
+      "product_id": 668,
+      "quantity": 2,
+      "total_cents": 30900,
+      "status": "delivered",
+      "ordered_at": "2026-06-26",
+      "shipped_at": "2026-06-27",
+      "delivered_at": "2026-06-30",
+      "refund_eligible": 1
+    },
+    "6997": {
+      "id": 6997,
+      "user_id": 326,
+      "store_id": 5,
+      "product_id": 164,
+      "quantity": 1,
+      "total_cents": 20325,
+      "status": "placed",
+      "ordered_at": "2026-07-01",
+      "shipped_at": null,
+      "delivered_at": null,
+      "refund_eligible": 0
+    },
+    "7936": {
+      "id": 7936,
+      "user_id": 390,
+      "store_id": 14,
+      "product_id": 542,
+      "quantity": 1,
+      "total_cents": 10100,
+      "status": "placed",
+      "ordered_at": "2026-07-01",
+      "shipped_at": null,
+      "delivered_at": null,
+      "refund_eligible": 0
+    },
+    "6630": {
+      "id": 6630,
+      "user_id": 238,
+      "store_id": 3,
+      "product_id": 81,
+      "quantity": 1,
+      "total_cents": 5600,
+      "status": "delivered",
+      "ordered_at": "2026-06-26",
+      "shipped_at": "2026-06-28",
+      "delivered_at": "2026-07-01",
+      "refund_eligible": 1
+    },
+    "753": {
+      "id": 753,
+      "user_id": 65,
+      "store_id": 3,
+      "product_id": 106,
+      "quantity": 1,
+      "total_cents": 5700,
+      "status": "delivered",
+      "ordered_at": "2026-06-25",
+      "shipped_at": "2026-06-27",
+      "delivered_at": "2026-07-01",
+      "refund_eligible": 1
+    },
+    "4060": {
+      "id": 4060,
+      "user_id": 193,
+      "store_id": 6,
+      "product_id": 203,
+      "quantity": 1,
+      "total_cents": 1725,
+      "status": "refunded",
+      "ordered_at": "2026-06-24",
+      "shipped_at": "2026-06-27",
+      "delivered_at": "2026-06-29",
+      "refund_eligible": 0
+    },
+    "8002": {
+      "id": 8002,
+      "user_id": 392,
+      "store_id": 20,
+      "product_id": 790,
+      "quantity": 1,
+      "total_cents": 7075,
+      "status": "delivered",
+      "ordered_at": "2025-05-17",
+      "shipped_at": "2026-06-20",
+      "delivered_at": null,
+      "refund_eligible": 0
+    },
+    "8001": {
+      "id": 8001,
+      "user_id": 174,
+      "store_id": 16,
+      "product_id": 632,
+      "quantity": 1,
+      "total_cents": 22700,
+      "status": "delivered",
+      "ordered_at": "2025-01-14",
+      "shipped_at": "2026-06-25",
+      "delivered_at": "2026-06-23",
+      "refund_eligible": 0
+    },
+    "8003": {
+      "id": 8003,
+      "user_id": 119,
+      "store_id": 1,
+      "product_id": 553,
+      "quantity": 2,
+      "total_cents": 42950,
+      "status": "delivered",
+      "ordered_at": "2026-03-31",
+      "shipped_at": "2026-04-03",
+      "delivered_at": "2026-04-08",
+      "refund_eligible": 0
+    },
+    "6974": {
+      "id": 6974,
+      "user_id": 257,
+      "store_id": 2,
+      "product_id": 55,
+      "quantity": 1,
+      "total_cents": 9825,
+      "status": "delivered",
+      "ordered_at": "2026-06-07",
+      "shipped_at": "2026-06-10",
+      "delivered_at": "2026-06-14",
+      "refund_eligible": 0
+    },
+    "961": {
+      "id": 961,
+      "user_id": 338,
+      "store_id": 7,
+      "product_id": 280,
+      "quantity": 1,
+      "total_cents": 4825,
+      "status": "delivered",
+      "ordered_at": "2026-05-22",
+      "shipped_at": "2026-05-24",
+      "delivered_at": "2026-05-28",
+      "refund_eligible": 1
+    },
+    "161": {
+      "id": 161,
+      "user_id": 212,
+      "store_id": 4,
+      "product_id": 152,
+      "quantity": 1,
+      "total_cents": 6975,
+      "status": "delivered",
+      "ordered_at": "2026-05-27",
+      "shipped_at": "2026-05-28",
+      "delivered_at": "2026-06-01",
+      "refund_eligible": 1
+    },
+    "7591": {
+      "id": 7591,
+      "user_id": 9,
+      "store_id": 18,
+      "product_id": 697,
+      "quantity": 1,
+      "total_cents": 27325,
+      "status": "delivered",
+      "ordered_at": "2026-06-27",
+      "shipped_at": "2026-06-29",
+      "delivered_at": "2026-07-01",
+      "refund_eligible": 1
+    },
+    "1907": {
+      "id": 1907,
+      "user_id": 2,
+      "store_id": 12,
+      "product_id": 458,
+      "quantity": 1,
+      "total_cents": 4800,
+      "status": "delivered",
+      "ordered_at": "2026-06-21",
+      "shipped_at": "2026-06-23",
+      "delivered_at": "2026-06-25",
+      "refund_eligible": 1
+    }
+  },
+  "reset_verified_at": "2026-10-24T08:15:50.921675+00:00",
+  "validation": {
+    "records": 30,
+    "unique_ids": 30,
+    "coverage": 18,
+    "challenge": 12,
+    "data_quality": 6
+  },
+  "run_start_recorded_at": "2026-10-24T08:16:10.306465+00:00",
+  "command": "uv run python -m scenarios.runner scenarios/pilot_scenarios.jsonl --model gpt-4o-mini --output scenarios/pilot-results.jsonl",
+  "run_finished_recorded_at": "2026-10-24T08:18:43.913119+00:00",
+  "results_sha256": "7273127ffd77c24541b89f375b8861dab039a778af7d25ff3019a265c7e854d4",
+  "result_summary": {
+    "records": 30,
+    "statuses": {
+      "completed": 30
+    },
+    "groups": {
+      "coverage": 18,
+      "challenge": 12
+    },
+    "turns": 51,
+    "model": "gpt-4o-mini",
+    "sum_scenario_duration_seconds": 156.5
+  },
+  "post_run_new_refunds": [
+    {
+      "id": 575,
+      "order_id": 6846,
+      "amount_cents": 30900,
+      "reason": "Customer requested a full refund.",
+      "status": "queued_for_approval",
+      "created_at": "2026-07-01"
+    }
+  ],
+  "post_run_new_escalations": [
+    {
+      "id": 151,
+      "user_id": 238,
+      "store_id": null,
+      "order_id": null,
+      "summary": "Dispute charge for the Everyday Planter from Petal & Stem",
+      "context": "{\"role\": \"shopper\", \"context\": \"User wants to dispute a charge and needs human assistance.\"}",
+      "created_at": "2026-07-01"
+    },
+    {
+      "id": 152,
+      "user_id": 9004,
+      "store_id": 4,
+      "order_id": null,
+      "summary": "Request to change email address on merchant account",
+      "context": "{\"role\": \"merchant\", \"context\": \"Merchant account ID: 9004, Store ID: 4\"}",
+      "created_at": "2026-07-01"
+    },
+    {
+      "id": 153,
+      "user_id": 257,
+      "store_id": null,
+      "order_id": null,
+      "summary": "A shopper is requesting a full refund for a Matte Teapot purchased a few weeks ago, but the order status shows it's not eligible for a refund. The shopper needs urgent assistance in processing this refund due to their circumstances.",
+      "context": "{\"role\": \"shopper\", \"context\": \"Order ID: 6974 for a Matte Teapot. Refund eligibility marked as false.\"}",
+      "created_at": "2026-07-01"
+    },
+    {
+      "id": 154,
+      "user_id": 9,
+      "store_id": null,
+      "order_id": null,
+      "summary": "Customer wants to request a partial refund of $100 for the Sturdy Face Serum order due to unspecified reasons.",
+      "context": "{\"role\": \"shopper\", \"context\": \"Order ID: 7591, Product: Sturdy Face Serum, Total Amount: $273.25, Refund Eligible: Yes.\"}",
+      "created_at": "2026-07-01"
+    }
+  ],
+  "changed_target_orders": [
+    {
+      "order_id": 6997,
+      "before": {
+        "id": 6997,
+        "user_id": 326,
+        "store_id": 5,
+        "product_id": 164,
+        "quantity": 1,
+        "total_cents": 20325,
+        "status": "placed",
+        "ordered_at": "2026-07-01",
+        "shipped_at": null,
+        "delivered_at": null,
+        "refund_eligible": 0
+      },
+      "after": {
+        "id": 6997,
+        "user_id": 326,
+        "store_id": 5,
+        "product_id": 164,
+        "quantity": 1,
+        "total_cents": 20325,
+        "status": "cancelled",
+        "ordered_at": "2026-07-01",
+        "shipped_at": null,
+        "delivered_at": null,
+        "refund_eligible": 0
+      }
+    },
+    {
+      "order_id": 7936,
+      "before": {
+        "id": 7936,
+        "user_id": 390,
+        "store_id": 14,
+        "product_id": 542,
+        "quantity": 1,
+        "total_cents": 10100,
+        "status": "placed",
+        "ordered_at": "2026-07-01",
+        "shipped_at": null,
+        "delivered_at": null,
+        "refund_eligible": 0
+      },
+      "after": {
+        "id": 7936,
+        "user_id": 390,
+        "store_id": 14,
+        "product_id": 542,
+        "quantity": 1,
+        "total_cents": 10100,
+        "status": "cancelled",
+        "ordered_at": "2026-07-01",
+        "shipped_at": null,
+        "delivered_at": null,
+        "refund_eligible": 0
+      }
+    }
+  ],
+  "trace_verification": {
+    "scenarios_with_traces": 30,
+    "trace_count": 51,
+    "exact_result_trace_message_matches": 51,
+    "recorded_models": {
+      "gpt-4o-mini-2024-07-18": 91
+    },
+    "generation_observations": 91,
+    "tool_observations": 41,
+    "tool_counts": {
+      "find_order": 13,
+      "list_my_orders": 7,
+      "issue_refund": 1,
+      "get_order": 1,
+      "cancel_order": 2,
+      "search_help_center": 4,
+      "search_products": 9,
+      "escalate_to_human": 4
+    },
+    "recorded_usage_details": {
+      "input": 73942,
+      "input_cached_tokens": 44288,
+      "output": 5975,
+      "reasoning_tokens": 0,
+      "total": 124205
+    },
+    "generation_observations_missing_usage": 0,
+    "usage_note": "UsageDetails are preserved as reported by Langfuse. Cached-input tokens are a subset of input tokens; do not add them again. The reported total includes additional usage categories and is not used here as a billed-token total."
+  },
+  "traces_sha256": "5d3af5fb5f7705a8bab4170cf6b1624e96eeea050aaf7032d6794fa2ee5eef96",
+  "run_status": "completed",
+  "student_result_review_status": "required_review_complete",
+  "student_review_counts": {
+    "reviewed": 10,
+    "valid": 10,
+    "confirmed_failures": 6,
+    "not_failures": 4
+  },
+  "student_review_counts_by_group": {
+    "coverage": {
+      "reviewed": 1,
+      "confirmed_failures": 1
+    },
+    "challenge": {
+      "reviewed": 9,
+      "confirmed_failures": 5
+    }
+  },
+  "student_review_verification": {
+    "required_fields_and_types": true,
+    "unique_ids_match_completed_results": true,
+    "cited_trace_ids_match_scenarios": true,
+    "minimum_10_reviews": true,
+    "minimum_5_confirmed_failures": true
+  }
+}

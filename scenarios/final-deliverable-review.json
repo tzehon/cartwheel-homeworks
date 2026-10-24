@@ -1,0 +1,171 @@
+{
+  "required_files": [
+    {
+      "path": "scenarios/pilot_scenarios.jsonl",
+      "bytes": 26622,
+      "sha256": "d2a777d56c276eead6971f6f0b125433164ab948221874381e8ef6f2f21b6d0c"
+    },
+    {
+      "path": "scenarios/pilot-results.jsonl",
+      "bytes": 34113,
+      "sha256": "7273127ffd77c24541b89f375b8861dab039a778af7d25ff3019a265c7e854d4"
+    },
+    {
+      "path": "scenarios/pilot_review.jsonl",
+      "bytes": 10146,
+      "sha256": "57f83bdd6c2a0ff8f2a9379df8fee49197a37bd39729c793bdd52967814e2d14"
+    },
+    {
+      "path": "scenarios/support_scenarios.jsonl",
+      "bytes": 253331,
+      "sha256": "7f47ce22fc01a2df1420969a9667bb013d0ecf3050021519e88d0a092f367a59"
+    },
+    {
+      "path": "scenarios/support_review.jsonl",
+      "bytes": 14779,
+      "sha256": "76786408399c3de34623a0f0d9294580ad845a7b566b47ce5a07d39b9b9ef7ef"
+    },
+    {
+      "path": "scenarios/monitoring_scenarios.jsonl",
+      "bytes": 50510,
+      "sha256": "91375403684a6c150331fc92833df9352606d9541251e6c1e2c216787fc6b0b6"
+    },
+    {
+      "path": "scenarios/final-results.jsonl",
+      "bytes": 350034,
+      "sha256": "ed9b7cd18de42a2bd60207110d0e988ee64897bfe824d6d7d5a58047aed37194"
+    },
+    {
+      "path": "reports/smoke-output.txt",
+      "bytes": 4231,
+      "sha256": "5ea0a31fc2537f8751fe0ff4c88e3acc568c4b81cad484ad5a170498f62ea71e"
+    },
+    {
+      "path": "traces/support_traces.json",
+      "bytes": 21799717,
+      "sha256": "1bc251fdf9a0b1ce6acca1a642c67ba15d9093cd69cd238ee94f15b9f812c48a"
+    }
+  ],
+  "pilot": {
+    "scenarios": 30,
+    "completed": 30,
+    "groups": {
+      "coverage": 18,
+      "challenge": 12
+    },
+    "traces_and_exchanges": 51,
+    "model_calls": {
+      "gpt-4o-mini-2024-07-18": 91
+    },
+    "tool_calls_with_inputs_and_results": 41,
+    "all_trace_messages_match_saved_results": true
+  },
+  "pilot_reviews": {
+    "reviewed": 10,
+    "valid": 10,
+    "student_confirmed_failures": 6
+  },
+  "final": {
+    "scenarios": 250,
+    "completed": 250,
+    "groups": {
+      "coverage": 175,
+      "challenge": 75
+    },
+    "traces_and_exchanges": 524,
+    "model_calls": {
+      "gpt-4o-mini-2024-07-18": 881
+    },
+    "tool_calls_with_inputs_and_results": 361,
+    "all_trace_messages_match_saved_results": true
+  },
+  "final_reviews": {
+    "count": 15,
+    "decisions": {
+      "revise": 14,
+      "accept": 1
+    },
+    "all_revisions_applied": true,
+    "review_provenance": "assistant reviews under explicit user blanket approval; not 15 individually read by student"
+  },
+  "monitoring": {
+    "records": 50,
+    "coverage": 35,
+    "challenge": 15,
+    "byte_identical_subset": true
+  },
+  "trace_examples_inspected": [
+    "hw3-final-001",
+    "hw3-final-116",
+    "hw3-final-194"
+  ],
+  "checks": "offline checks against saved artifacts; no new model calls",
+  "remaining": [
+    "student continuous video <=5 minutes with required demonstrations",
+    "authorized commit and push in progress"
+  ],
+  "reviewed_at": "2026-10-24T09:48:27.010766+00:00",
+  "validators": {
+    "pilot": {
+      "command": ".venv/bin/python -m scenarios.validate scenarios/pilot_scenarios.jsonl",
+      "exit_code": 0,
+      "records": 30,
+      "coverage": 18,
+      "challenge": 12,
+      "data_quality": 6
+    },
+    "final": {
+      "command": ".venv/bin/python -m scenarios.validate scenarios/support_scenarios.jsonl --final",
+      "exit_code": 0,
+      "records": 250,
+      "coverage": 175,
+      "challenge": 75,
+      "data_quality": 30,
+      "five_per_each_of_six_cases": true
+    },
+    "monitoring": {
+      "command": ".venv/bin/python -m scenarios.validate scenarios/monitoring_scenarios.jsonl",
+      "exit_code": 0,
+      "records": 50,
+      "coverage": 35,
+      "challenge": 15,
+      "data_quality": 6
+    }
+  },
+  "handout_jq_checks": {
+    "final_statuses": [
+      {
+        "status": "completed",
+        "count": 250
+      }
+    ],
+    "unique_final_trace_scenario_ids": 250,
+    "exit_codes": [
+      0,
+      0
+    ]
+  },
+  "required_files_tracked_in_git": 0,
+  "video_status": "Not provided or verified; left to student.",
+  "video_required_demonstrations": [
+    "one failed pilot scenario with metadata and evidence",
+    "one final scenario revised after review",
+    "one complete final trace with scenario ID and tool activity",
+    "regenerate unique final scenario ID count (250)"
+  ],
+  "student_final_acceptance": {
+    "accepted": true,
+    "authorization": "accept, also commit and push"
+  },
+  "submission_preflight": {
+    "selected_hw3_files": 41,
+    "offline_tests_passed": 16,
+    "test_command": ".venv/bin/python -m pytest -q tests/test_pilot_generation.py tests/test_pilot_critic.py tests/test_final_generation.py tests/test_final_critic.py",
+    "credential_pattern_check": "passed",
+    "excluded": [
+      "local database and policy backups",
+      "session database side files",
+      ".env"
+    ]
+  }
+}

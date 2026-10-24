@@ -1,0 +1,45 @@
+{
+  "scope": "offline assistant language audit of the remaining 235 conversations",
+  "input_sha256": "b972a912b59c89a5425b9c49d34141e7b6764ff979a937009e6f7cb1af72a7e4",
+  "output_sha256": "7f47ce22fc01a2df1420969a9667bb013d0ecf3050021519e88d0a092f367a59",
+  "dispositions": {
+    "revise": 211,
+    "keep": 24
+  },
+  "checks": {
+    "approved_conversations_preserved": 15,
+    "latest_order_selection_retained": 145,
+    "audited_conversations": 235,
+    "refund_request_scope_checked": 48,
+    "explicit_partial_refund_amounts": 11,
+    "correction_sequences_repaired_or_retained": 7
+  },
+  "groups": {
+    "coverage": 175,
+    "challenge": 75
+  },
+  "user_messages": 524,
+  "protected_file_sha256": {
+    "support_review.jsonl": "76786408399c3de34623a0f0d9294580ad845a7b566b47ce5a07d39b9b9ef7ef",
+    "final-conversation-review.md": "b4de57feca110f1f8f6bd3ee8bb220b6979b6fbf0bbc85cfdcc7c593b4e426e5",
+    "final_plan.json": "76b8970c12a80c922a4a2550cc41d0c8faa9e82f72d5653cecd0bf3a914465de"
+  },
+  "model_calls": 0,
+  "cartwheel_calls": 0,
+  "database_changes": false,
+  "semantic_review_result": "All 235 complete conversations reviewed against user-visible briefs and ordered development. No unresolved wording concern identified by the assistant; not a guarantee of future agent behavior.",
+  "official_validator": {
+    "command": "uv run python -m scenarios.validate scenarios/support_scenarios.jsonl --final",
+    "exit_code": 0,
+    "result": {
+      "challenge": 75,
+      "coverage": 175,
+      "data_quality": 30,
+      "records": 250,
+      "unique_ids": 250
+    }
+  },
+  "read_back_verified": true,
+  "approved_review_records_unchanged": true,
+  "next_step": "Select 50 monitoring scenarios with both groups and all roles; final execution remains separately gated."
+}
