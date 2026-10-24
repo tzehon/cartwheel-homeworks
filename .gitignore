@@ -19,3 +19,12 @@ __pycache__/
 .venv/
 .pytest_cache/
 scenarios/demo_pilot_gt.json
+
+# Homework videos and their production artifacts stay local; never upload to Git.
+/artifacts/hw*-video/
+*.mp4
+*.mov
+*.webm
+*.m4v
+*.mkv
+*.avi
