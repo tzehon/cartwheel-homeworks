@@ -1,0 +1,35 @@
+scenarios/hw3-progress.md
+  s_6c98c4cf05f6a4::t_dd24122ca686b5 160-168,171
+  s_ea43caeaca47ff::t_bfec9367a187ac 114,132,134-135,159,169
+  s_ea43caeaca47ff::t_2f09685da695bf 173
+  s_ea43caeaca47ff::t_af9354028f0f2b 7,170,172,174-178
+  s_ea43caeaca47ff::t_0456a5e8f13ea1 133
+AGENTS.md
+  s_ea43caeaca47ff::t_af9354028f0f2b 22
+.gitignore
+  s_ea43caeaca47ff::t_af9354028f0f2b 22-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e7d057a29ff35dce9f2cc5b4a9a56553e489ad80",
+  "prompts": {},
+  "sessions": {
+    "s_6c98c4cf05f6a4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a16cc0-d2a7-7ec2-8b18-de4dff043b4d",
+        "model": "unknown"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    },
+    "s_ea43caeaca47ff": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16cc0-d2a7-7ec2-8b18-de4dff043b4d",
+        "model": "gpt-6-astra"
+      },
+      "human_author": null
+    }
+  }
+}
