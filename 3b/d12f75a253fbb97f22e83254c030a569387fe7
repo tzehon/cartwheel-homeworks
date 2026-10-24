@@ -1,0 +1,80 @@
+artifacts/hw3-video/voice-07.json
+  s_ea43caeaca47ff::t_f3a7228b0c234f 1-421
+artifacts/hw3-video/render_narration.py
+  s_ea43caeaca47ff::t_081a0b7546aac4 1-20
+artifacts/hw3-video/captions.srt
+  s_6c98c4cf05f6a4::t_e1cb07ba76cacf 1-183
+artifacts/hw3-video/video-probe.json
+  s_ea43caeaca47ff::t_4831d33dcb7bc9 1-26
+scenarios/hw3-progress.md
+  s_ea43caeaca47ff::t_bfec9367a187ac 7,114,132,134-135,159,169-170,172
+  s_ea43caeaca47ff::t_0456a5e8f13ea1 133
+  s_6c98c4cf05f6a4::t_dd24122ca686b5 160-168,171
+  s_ea43caeaca47ff::t_2f09685da695bf 173-174
+artifacts/hw3-video/server.py
+  s_ea43caeaca47ff::t_f4dc5620f9dd9d 1-36,51-66
+  s_ea43caeaca47ff::t_4f0404635f6dd8 37-50
+artifacts/hw3-video/voice-06.json
+  s_ea43caeaca47ff::t_f3a7228b0c234f 1-505
+artifacts/hw3-video/narration.json
+  s_ea43caeaca47ff::t_081a0b7546aac4 1-10
+artifacts/hw3-video/index.html
+  s_ea43caeaca47ff::t_f4dc5620f9dd9d 1-2,4-5,7-23,25-27,30-33,35-43,49-50
+  s_ea43caeaca47ff::t_3d9cc838c9b647 3,28-29,44
+  s_ea43caeaca47ff::t_c486fefd8397b0 34
+  s_ea43caeaca47ff::t_4f0404635f6dd8 6,24,45-48
+artifacts/hw3-video/timeline.json
+  s_6c98c4cf05f6a4::t_e1cb07ba76cacf 1-277
+artifacts/hw3-video/assemble_audio.py
+  s_ea43caeaca47ff::t_d717027a1d680b 1-49
+artifacts/hw3-video/live_voice.py
+  s_ea43caeaca47ff::t_6c8e0a70d719fe 1-86
+artifacts/hw3-video/video-verification.json
+  s_ea43caeaca47ff::t_bfec9367a187ac 27-32
+  s_6c98c4cf05f6a4::t_dd24122ca686b5 1-26,33-34
+artifacts/hw3-video/.gitignore
+  s_ea43caeaca47ff::t_bfec9367a187ac 1-4
+artifacts/hw3-video/hw3-walkthrough.srt
+  s_6c98c4cf05f6a4::t_8c9fb6674d86c1 1-183
+artifacts/hw3-video/README.md
+  s_ea43caeaca47ff::t_bfec9367a187ac 17,23
+  s_6c98c4cf05f6a4::t_dd24122ca686b5 1-16,18-22,24-25
+artifacts/hw3-video/voice-verification.json
+  s_6c98c4cf05f6a4::t_e1cb07ba76cacf 1-58
+artifacts/hw3-video/voice-00.json
+  s_ea43caeaca47ff::t_dbfdf20ba5cee6 1-449
+artifacts/hw3-video/voice-01.json
+  s_ea43caeaca47ff::t_442a1f8c547978 1-505
+artifacts/hw3-video/voice-02.json
+  s_ea43caeaca47ff::t_d76c6220835b05 1-533
+artifacts/hw3-video/voice-03.json
+  s_ea43caeaca47ff::t_ec54d6957dc44e 1-540
+artifacts/hw3-video/voice-04.json
+  s_ea43caeaca47ff::t_db5ddf72e73983 1-484
+artifacts/hw3-video/voice-05.json
+  s_ea43caeaca47ff::t_86b0b59bc225b4 1-596
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3bd12f75a253fbb97f22e83254c030a569387fe7",
+  "prompts": {},
+  "sessions": {
+    "s_6c98c4cf05f6a4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "01a16cc0-d2a7-7ec2-8b18-de4dff043b4d",
+        "model": "unknown"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    },
+    "s_ea43caeaca47ff": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a16cc0-d2a7-7ec2-8b18-de4dff043b4d",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "tth <xyz@foo.com>"
+    }
+  }
+}
