@@ -101,8 +101,7 @@
   ],
   "checks": "offline checks against saved artifacts; no new model calls",
   "remaining": [
-    "student continuous video <=5 minutes with required demonstrations",
-    "authorized commit and push in progress"
+    "student continuous video <=5 minutes with required demonstrations"
   ],
   "reviewed_at": "2026-10-24T09:48:27.010766+00:00",
   "validators": {
@@ -145,7 +144,7 @@
       0
     ]
   },
-  "required_files_tracked_in_git": 0,
+  "required_files_tracked_in_git": 9,
   "video_status": "Not provided or verified; left to student.",
   "video_required_demonstrations": [
     "one failed pilot scenario with metadata and evidence",
@@ -167,5 +166,12 @@
       "session database side files",
       ".env"
     ]
+  },
+  "submission": {
+    "deliverables_commit": "a777446fcb4002e748897843d0651a52e69eae91",
+    "branch": "main",
+    "remote": "https://github.com/tzehon/cartwheel-homeworks",
+    "deliverables_push": "succeeded",
+    "authentication": "existing GitHub CLI login over command-only HTTPS fallback; saved remote unchanged"
   }
 }
